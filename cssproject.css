@@ -1,0 +1,133 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 1rem;
+    height: 75px;
+}
+ul{
+    margin: 5px;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.hero{
+    width: 60%;
+}
+.new{
+    margin: 0%;
+    padding: 20px;
+    width: 35%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.hydrogen:hover{
+    color: brown;
+}
+.Ai:hover{
+    color: brown;
+}
+.vc:hover{
+    color: brown;
+}
+.hero img{
+    width: 100%;
+}
+.herocontent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bright{
+    width: 48%;
+    font-size: x-large;
+    font-weight: 700;
+    
+    
+}
+.readmore{
+    width: 50%;
+    
+
+}
+button{
+    font-weight: 300;
+    font-size: xx-large;
+    background-color: tomato;
+
+}
+footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 footer{
+    font-size: xx-large;
+}
+
+.imagepc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img .imagepc{
+    width: 60%;
+
+}
+.numberone{
+    width: 40%;
+}
+
+.laptops{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img .laptops{
+    width: 60%;
+
+}
+.numbertwo{
+    width: 40%;
+}
+.gaming{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img .gaming{
+    width: 60%;
+}
+.numberthree{
+    width: 40%;
+}
+
+/* at media queer */
+@media (max-width: 778px) {
+    ul{
+        display: none;
+    
+    }
+    
+}
